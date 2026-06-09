@@ -6,9 +6,67 @@ Objective:
 Verify temperature sensor functionality.
 
 Procedure:
-1. Record ambient temperature.
-2. Apply heat source.
+1. Measure ambient temperature.
+2. Apply external heat source.
 3. Observe temperature increase.
 
 Expected Result:
-Temperature reading increases within 5 seconds.
+Temperature value increases and stabilizes.
+
+---
+
+## TC-02 Current Sensor Verification
+
+Objective:
+Verify current measurement capability.
+
+Procedure:
+1. Measure idle current.
+2. Apply electrical load.
+3. Compare current readings.
+
+Expected Result:
+Current value increases proportionally.
+
+---
+
+## TC-03 Fan Activation Test
+
+Objective:
+Verify automatic cooling response.
+
+Procedure:
+1. Set threshold temperature.
+2. Increase sensor temperature.
+3. Observe fan operation.
+
+Expected Result:
+Fan activates when threshold is exceeded.
+
+---
+
+## TC-04 Telemetry Logging Verification
+
+Objective:
+Verify data logging functionality.
+
+Procedure:
+1. Run system for 5 minutes.
+2. Save telemetry data.
+
+Expected Result:
+CSV file generated successfully.
+
+---
+
+## TC-05 Fault Detection Verification
+
+Objective:
+Verify fault handling behavior.
+
+Procedure:
+1. Simulate sensor failure.
+2. Observe system response.
+
+Expected Result:
+Fault code generated and logged.
