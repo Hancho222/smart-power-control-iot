@@ -1,0 +1,14 @@
+# Validation Plan
+
+## TC-01 Temperature Sensor Verification
+
+Objective:
+Verify temperature sensor functionality.
+
+Procedure:
+1. Record ambient temperature.
+2. Apply heat source.
+3. Observe temperature increase.
+
+Expected Result:
+Temperature reading increases within 5 seconds.
