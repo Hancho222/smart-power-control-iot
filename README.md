@@ -1,6 +1,6 @@
 # smart-power-control-iot
-IoT-based Smart Power &amp; Control Monitoring System (EE Portfolio Project)
-# ⚡ Smart Power & Control IoT Monitoring System
+Embedded Electronics Health Monitoring & Protection Platform
+# Embedded Electronics Health Monitoring & Protection Platform
 
 ## 🔍 Problem Statement
 In small-to-medium industrial environments and server rooms, there is often **no affordable real-time monitoring and control system** for electrical and thermal parameters.  
